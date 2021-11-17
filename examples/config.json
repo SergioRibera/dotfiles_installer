@@ -1,0 +1,16 @@
+{
+    "banner": "None",
+    "steps": [
+        {
+            "name": "Cloning Repo",
+            "description": "Lorem",
+            "type_step": "Custom",
+            "os_target": "Any",
+            "show_outputs": false,
+            "menu": {
+                "type": "None", // Multiple, One
+                "indications": "lorem ipsum"
+            }
+        }
+    ]
+}

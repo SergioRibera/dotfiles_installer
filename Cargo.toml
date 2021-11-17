@@ -6,5 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+tui = "0.16"
+termion = "1.5"
 clap = "3.0.0-beta.2"
 install_helper = { path = "../install_helper" }

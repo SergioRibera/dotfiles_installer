@@ -44,7 +44,7 @@ fn main() {
                         .with_config(easy_conf)
                         .build();
                 for mut step in easy_cmd.into_iter() {
-                    let output = step.exec();
+                    let output = step.exec(vec![]);
                     sleep(Duration::from_secs(1));
                 }
             }
